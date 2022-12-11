@@ -1,5 +1,6 @@
 #Name: Caitlin Yeung 
 #SI 206 
+#UMID: 
 
 import matplotlib.pyplot as plt
 import os
