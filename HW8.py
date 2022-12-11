@@ -1,4 +1,5 @@
 #Name: Caitlin Yeung 
+#SI 206 
 
 import matplotlib.pyplot as plt
 import os
