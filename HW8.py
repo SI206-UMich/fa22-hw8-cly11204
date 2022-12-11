@@ -1,3 +1,5 @@
+#Name: Caitlin Yeung 
+
 import matplotlib.pyplot as plt
 import os
 import sqlite3
@@ -26,10 +28,10 @@ def get_restaurant_data(db_filename):
     for column in data.description:
         header_list.append(column[0])
 
-    dict_of_restaurant = {}
     for restaurant in result:
         for index, item in enumerate(restaurant):
-            
+            dict_of_restaurant = {}
+
             dict_of_restaurant[header_list[index]] = restaurant[index]
             restaurant_list.append(dict_of_restaurant)
     print (restaurant_list)
